@@ -1,7 +1,24 @@
+# Variables d'environnement et secrets
+.env
+
+# Environnements Python
 venv/
 .venv/
+
+# Fichiers temporaires Python
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
+
+# Fichiers IntelliJ / PyCharm
 .idea/
-mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données locales MLflow
 mlflow.db
+mlruns/
+
+# Modèles exportés
+model/
+model_champion/
