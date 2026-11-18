@@ -1,0 +1,9 @@
+venv
+mlruns
+mlflow.db
+__pycache__
+.idea
+.ipynb_checkpoints
+*.ipynb
+*.csv
+.git
